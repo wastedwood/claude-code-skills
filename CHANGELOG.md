@@ -1,5 +1,20 @@
 # Changelog
 
+## [v0.5.0] - 2026-06-17
+
+### Added（新增）
+- 新增 gaoqi-form-fill 的填表前数据中转流程：Excel → 标准 JSON → 基础预检 → 网页填表。
+- 新增脱敏示例数据：`gaoqi-sample-data.xlsx` 和对应标准 JSON 示例。
+- 新增 `excel-to-json.py`，可将推荐 Excel 模板转换为内部标准 JSON。
+- 新增 `validate-json.py`，可检查编号重复、IP/RD/PS 引用断链、研发费用不一致、关键文本缺失和人员数据异常。
+- 新增 `references/data-schema.md`，定义高企填表内部数据结构。
+- 新增 `references/input-adapter.md`，明确第一版只做轻量数据中转，不做 PDF、图片、OCR、附件识别或复杂数据整理平台。
+
+### Changed（变更）
+- 更新 gaoqi-form-fill 技能入口，要求浏览器填表前优先使用标准 JSON 和预检结果。
+- 更新 README 中 gaoqi-form-fill 的能力描述，补充数据中转和预检能力。
+- 更新 `.gitignore`，排除本地 AGENTS、真实数据 Excel 和 Python 缓存文件。
+
 ## [v0.4.0] - 2026-06-17
 
 ### Changed（变更）

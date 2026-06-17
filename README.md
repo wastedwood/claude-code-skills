@@ -42,7 +42,7 @@ Claude 会读取文件并按其中的指令执行。
 
 | 技能 | 描述 |
 |------|------|
-| [gaoqi-form-fill](gaoqi-form-fill/SKILL.md) | 高企申报系统表单填写助手。覆盖 7 张核心表单（人力资源、研发活动、费用明细、知识产权、产品情况、成果转化、标准制定），含 references/ 知识库和 scripts/ 工具脚本。专利号自动回填国家数据库，费用表自动计算。人机协作渐近自动化。 |
+| [gaoqi-form-fill](gaoqi-form-fill/SKILL.md) | 高企申报系统表单填写助手。覆盖 7 张核心表单（人力资源、研发活动、费用明细、知识产权、产品情况、成果转化、标准制定），含 references/ 知识库和 scripts/ 工具脚本。新增 Excel → 标准 JSON → 基础预检的数据中转流程，网页填表前先检查编号关联和研发费用一致性。 |
 | [enterprise-writing](enterprise-writing/SKILL.md) | 企业文书写作助手。覆盖 7 类企业政府文书：科技项目申报书、资质认定申请（小巨人/单项冠军）、工程研究中心/平台申请、人才申报书、绩效评价报告、典型案例、发言稿。内置各类文书知识库。 |
 | [vision](vision/SKILL.md) | 图片分析技能。使用阿里云百炼视觉模型（通义千问 VL）识别图片中的文字、物体、场景等，支持 OCR、截图分析、图片内容理解。 |
 | [wrap-up](wrap-up/SKILL.md) | 项目收尾工作流。自动同步文档与记忆，扫描 git 变更生成 changelog，用户确认后按 conventional commits 格式提交、打版、推送。 |

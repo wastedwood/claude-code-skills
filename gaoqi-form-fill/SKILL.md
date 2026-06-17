@@ -9,7 +9,7 @@ description: >-
   **工作模式**：人机协作渐进自动化。第一阶段：你操控页面，我填数据；第二阶段（信任建立后）：放手交给我全自动操作。
 
   **触发场景**：用户在高企认定管理工作网（gqqy.chinatorch.org.cn）的申报书中逐项修改表单数据，
-  且用户提供了包含准确数据的数据源（Excel、表格文本、JSON、结构化数据等任意格式）。
+  且用户提供了包含准确数据的数据源。第一版优先支持 Excel，Word 作为长文本参考材料。
 ---
 
 # 高企申报表单填写助手
@@ -18,7 +18,7 @@ description: >-
 
 1. 用户已登录 [gqqy.chinatorch.org.cn](https://gqqy.chinatorch.org.cn) 并已打开申报书
 2. CDP 代理已启动（通过 `web-access` 技能）
-3. 用户提供了数据来源（Excel、表格、JSON 等任意格式）
+3. 用户提供了数据来源（第一版支持 Excel / Word；浏览器填表前应先转换为标准 JSON）
 
 ## 操作须知
 
@@ -102,12 +102,38 @@ AI 全权操作：导航 → 填数 → 校验 → 保存 → 下一条，循环
 
 ---
 
+## 填表前数据中转与预检
+
+浏览器填表前，先把用户 Excel 整理为标准 JSON，并运行预检。
+
+Word 暂不做确定性自动解析，只作为 AI 阅读参考，用来补充研发说明、产品说明、创新能力说明等长文本。
+
+第一版已实现 Excel 入口：
+
+```powershell
+python gaoqi-form-fill/scripts/excel-to-json.py `
+  gaoqi-form-fill/examples/test-data/gaoqi-sample-data.xlsx `
+  gaoqi-form-fill/examples/test-data/gaoqi-sample-data.json
+
+python gaoqi-form-fill/scripts/validate-json.py `
+  gaoqi-form-fill/examples/test-data/gaoqi-sample-data.json
+```
+
+预检出现 `ERROR` 时，不应继续自动填表。预检只有 `WARN` 时，应先让用户确认。
+
+相关文档：
+
+- [`references/data-schema.md`](./references/data-schema.md)
+- [`references/input-adapter.md`](./references/input-adapter.md)
+
 ## 脚本工具
 
 每次操作时从对应文件复制使用：
 
 | 文件 | 用途 |
 |------|------|
+| [`scripts/excel-to-json.py`](./scripts/excel-to-json.py) | Excel 转标准 JSON |
+| [`scripts/validate-json.py`](./scripts/validate-json.py) | 标准 JSON 预检 |
 | [`scripts/eval-fill.js`](./scripts/eval-fill.js) | 通用填值工具函数 |
 | [`scripts/trigger-fee-calc.js`](./scripts/trigger-fee-calc.js) | 费用表计算 |
 | [`scripts/cascade-domain.js`](./scripts/cascade-domain.js) | 三级级联 |

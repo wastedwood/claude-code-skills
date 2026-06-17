@@ -1,0 +1,4972 @@
+{
+  "meta": {
+    "companyName": "测试企业有限公司",
+    "reportYear": 2026,
+    "dataInnocomId": "",
+    "sourceFiles": [
+      "gaoqi-sample-data.xlsx"
+    ],
+    "notes": "由 Excel 输入适配层生成"
+  },
+  "intellectualProperties": [
+    {
+      "no": "01",
+      "code": "IP01",
+      "name": "测试知识产权01",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000001.1",
+      "applicationNo": "CN20252000001.1",
+      "authorizedDate": "2023-02-17",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "02",
+      "code": "IP02",
+      "name": "测试知识产权02",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000002.2",
+      "applicationNo": "CN20252000002.2",
+      "authorizedDate": "2023-03-28",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "03",
+      "code": "IP03",
+      "name": "测试知识产权03",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000003.3",
+      "applicationNo": "CN20252000003.3",
+      "authorizedDate": "2023-04-07",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "04",
+      "code": "IP04",
+      "name": "测试知识产权04",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000004.4",
+      "applicationNo": "CN20252000004.4",
+      "authorizedDate": "2023-05-30",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "05",
+      "code": "IP05",
+      "name": "测试知识产权05",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000005.5",
+      "applicationNo": "CN20252000005.5",
+      "authorizedDate": "2024-03-22",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "06",
+      "code": "IP06",
+      "name": "测试知识产权06",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000006.6",
+      "applicationNo": "CN20252000006.6",
+      "authorizedDate": "2024-12-13",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "07",
+      "code": "IP07",
+      "name": "测试知识产权07",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000007.7",
+      "applicationNo": "CN20252000007.7",
+      "authorizedDate": "2025-02-28",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "08",
+      "code": "IP08",
+      "name": "测试知识产权08",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000008.8",
+      "applicationNo": "CN20252000008.8",
+      "authorizedDate": "2025-07-29",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "09",
+      "code": "IP09",
+      "name": "测试知识产权09",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000009.9",
+      "applicationNo": "CN20252000009.9",
+      "authorizedDate": "2025-08-15",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "10",
+      "code": "IP10",
+      "name": "测试知识产权10",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000010.0",
+      "applicationNo": "CN20252000010.0",
+      "authorizedDate": "2025-08-15",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "11",
+      "code": "IP11",
+      "name": "测试知识产权11",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000011.1",
+      "applicationNo": "CN20252000011.1",
+      "authorizedDate": "2025-08-29",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "12",
+      "code": "IP12",
+      "name": "测试知识产权12",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000012.2",
+      "applicationNo": "CN20252000012.2",
+      "authorizedDate": "2025-09-12",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "13",
+      "code": "IP13",
+      "name": "测试知识产权13",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000013.3",
+      "applicationNo": "CN20252000013.3",
+      "authorizedDate": "2025-11-21",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "14",
+      "code": "IP14",
+      "name": "测试知识产权14",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000014.4",
+      "applicationNo": "CN20252000014.4",
+      "authorizedDate": "2025-11-21",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "15",
+      "code": "IP15",
+      "name": "测试知识产权15",
+      "category": "发明",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000015.5",
+      "applicationNo": "CN20252000015.5",
+      "authorizedDate": "2025-12-09",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "16",
+      "code": "IP16",
+      "name": "测试知识产权16",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000016.6",
+      "applicationNo": "CN20252000016.6",
+      "authorizedDate": "2023-02-24",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "17",
+      "code": "IP17",
+      "name": "测试知识产权17",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000017.7",
+      "applicationNo": "CN20252000017.7",
+      "authorizedDate": "2023-03-24",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "18",
+      "code": "IP18",
+      "name": "测试知识产权18",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000018.8",
+      "applicationNo": "CN20252000018.8",
+      "authorizedDate": "2023-03-28",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "19",
+      "code": "IP19",
+      "name": "测试知识产权19",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000019.9",
+      "applicationNo": "CN20252000019.9",
+      "authorizedDate": "2023-07-04",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "20",
+      "code": "IP20",
+      "name": "测试知识产权20",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000020.0",
+      "applicationNo": "CN20252000020.0",
+      "authorizedDate": "2023-08-15",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "21",
+      "code": "IP21",
+      "name": "测试知识产权21",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000021.1",
+      "applicationNo": "CN20252000021.1",
+      "authorizedDate": "2023-09-01",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "22",
+      "code": "IP22",
+      "name": "测试知识产权22",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000022.2",
+      "applicationNo": "CN20252000022.2",
+      "authorizedDate": "2023-09-01",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "23",
+      "code": "IP23",
+      "name": "测试知识产权23",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000023.3",
+      "applicationNo": "CN20252000023.3",
+      "authorizedDate": "2023-09-12",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "24",
+      "code": "IP24",
+      "name": "测试知识产权24",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000024.4",
+      "applicationNo": "CN20252000024.4",
+      "authorizedDate": "2023-09-22",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "25",
+      "code": "IP25",
+      "name": "测试知识产权25",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000025.5",
+      "applicationNo": "CN20252000025.5",
+      "authorizedDate": "2023-11-03",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "26",
+      "code": "IP26",
+      "name": "测试知识产权26",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000026.6",
+      "applicationNo": "CN20252000026.6",
+      "authorizedDate": "2023-11-03",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "27",
+      "code": "IP27",
+      "name": "测试知识产权27",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000027.7",
+      "applicationNo": "CN20252000027.7",
+      "authorizedDate": "2023-11-10",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "28",
+      "code": "IP28",
+      "name": "测试知识产权28",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000028.8",
+      "applicationNo": "CN20252000028.8",
+      "authorizedDate": "2023-11-10",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "29",
+      "code": "IP29",
+      "name": "测试知识产权29",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000029.9",
+      "applicationNo": "CN20252000029.9",
+      "authorizedDate": "2024-01-02",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "30",
+      "code": "IP30",
+      "name": "测试知识产权30",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000030.0",
+      "applicationNo": "CN20252000030.0",
+      "authorizedDate": "2024-01-02",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "31",
+      "code": "IP31",
+      "name": "测试知识产权31",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000031.1",
+      "applicationNo": "CN20252000031.1",
+      "authorizedDate": "2024-01-23",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "32",
+      "code": "IP32",
+      "name": "测试知识产权32",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000032.2",
+      "applicationNo": "CN20252000032.2",
+      "authorizedDate": "2024-03-15",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "33",
+      "code": "IP33",
+      "name": "测试知识产权33",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000033.3",
+      "applicationNo": "CN20252000033.3",
+      "authorizedDate": "2024-06-07",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "34",
+      "code": "IP34",
+      "name": "测试知识产权34",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000034.4",
+      "applicationNo": "CN20252000034.4",
+      "authorizedDate": "2024-06-18",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "35",
+      "code": "IP35",
+      "name": "测试知识产权35",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000035.5",
+      "applicationNo": "CN20252000035.5",
+      "authorizedDate": "2024-11-29",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "36",
+      "code": "IP36",
+      "name": "测试知识产权36",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000036.6",
+      "applicationNo": "CN20252000036.6",
+      "authorizedDate": "2025-02-11",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "37",
+      "code": "IP37",
+      "name": "测试知识产权37",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000037.7",
+      "applicationNo": "CN20252000037.7",
+      "authorizedDate": "2025-02-14",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "38",
+      "code": "IP38",
+      "name": "测试知识产权38",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000038.8",
+      "applicationNo": "CN20252000038.8",
+      "authorizedDate": "2025-03-25",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "39",
+      "code": "IP39",
+      "name": "测试知识产权39",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000039.9",
+      "applicationNo": "CN20252000039.9",
+      "authorizedDate": "2025-06-27",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "40",
+      "code": "IP40",
+      "name": "测试知识产权40",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000040.0",
+      "applicationNo": "CN20252000040.0",
+      "authorizedDate": "2025-07-08",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "41",
+      "code": "IP41",
+      "name": "测试知识产权41",
+      "category": "实用新型",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000041.1",
+      "applicationNo": "CN20252000041.1",
+      "authorizedDate": "2025-09-23",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "42",
+      "code": "IP42",
+      "name": "测试知识产权42",
+      "category": "软件著作权",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000042.2",
+      "applicationNo": "CN20252000042.2",
+      "authorizedDate": "2023-03-27",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "43",
+      "code": "IP43",
+      "name": "测试知识产权43",
+      "category": "软件著作权",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000043.3",
+      "applicationNo": "CN20252000043.3",
+      "authorizedDate": "2023-10-19",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "44",
+      "code": "IP44",
+      "name": "测试知识产权44",
+      "category": "软件著作权",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000044.4",
+      "applicationNo": "CN20252000044.4",
+      "authorizedDate": "2023-10-20",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "45",
+      "code": "IP45",
+      "name": "测试知识产权45",
+      "category": "软件著作权",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000045.5",
+      "applicationNo": "CN20252000045.5",
+      "authorizedDate": "2023-12-14",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    },
+    {
+      "no": "46",
+      "code": "IP46",
+      "name": "测试知识产权46",
+      "category": "软件著作权",
+      "categoryValue": "",
+      "accreditNo": "ZL20251000046.6",
+      "applicationNo": "CN20252000046.6",
+      "authorizedDate": "2024-10-25",
+      "acquireMethod": "自主研发",
+      "acquireMethodValue": "",
+      "source": "Excel",
+      "usableForSystemValidation": false,
+      "notes": "示例或待用户确认数据"
+    }
+  ],
+  "humanResources": {
+    "employeeTotal": 535,
+    "techStaffTotal": 98,
+    "employment": {
+      "onJob": {
+        "employee": 535,
+        "tech": 98
+      },
+      "partTime": {
+        "employee": 0,
+        "tech": 0
+      },
+      "temporary": {
+        "employee": 0,
+        "tech": 0
+      },
+      "foreign": {
+        "employee": 0,
+        "tech": 0
+      },
+      "returnedOverseas": {
+        "employee": 0,
+        "tech": 0
+      },
+      "talentPlan": {
+        "employee": 0,
+        "tech": 0
+      }
+    },
+    "education": {
+      "doctor": 1,
+      "master": 45,
+      "bachelor": 136,
+      "juniorCollegeOrBelow": 353
+    },
+    "title": {
+      "senior": 26,
+      "middle": 69,
+      "primary": 440,
+      "seniorTechnician": 0
+    },
+    "age": {
+      "under30": 0,
+      "age31To40": 0,
+      "age41To50": 0,
+      "over51": 0
+    }
+  },
+  "rdProjects": [
+    {
+      "code": "RD01",
+      "no": "01",
+      "name": "RD01 测试研发项目",
+      "startDate": "202107",
+      "endDate": "202302",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 4.04,
+      "spendingByYear": {
+        "2023": 4.04,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 1
+    },
+    {
+      "code": "RD02",
+      "no": "02",
+      "name": "RD02 测试研发项目",
+      "startDate": "202107",
+      "endDate": "202303",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 22.96,
+      "spendingByYear": {
+        "2023": 22.96,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 2
+    },
+    {
+      "code": "RD03",
+      "no": "03",
+      "name": "RD03 测试研发项目",
+      "startDate": "202112",
+      "endDate": "202307",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 1.64,
+      "spendingByYear": {
+        "2023": 1.64,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 3
+    },
+    {
+      "code": "RD04",
+      "no": "04",
+      "name": "RD04 测试研发项目",
+      "startDate": "202203",
+      "endDate": "202312",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP16"
+      ],
+      "budgetTotal": 102.36,
+      "spendingByYear": {
+        "2023": 102.36,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 4
+    },
+    {
+      "code": "RD05",
+      "no": "05",
+      "name": "RD05 测试研发项目",
+      "startDate": "202203",
+      "endDate": "202301",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP31"
+      ],
+      "budgetTotal": 0.19,
+      "spendingByYear": {
+        "2023": 0.19,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 5
+    },
+    {
+      "code": "RD06",
+      "no": "06",
+      "name": "RD06 测试研发项目",
+      "startDate": "202204",
+      "endDate": "202309",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 166.25,
+      "spendingByYear": {
+        "2023": 166.25,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 6
+    },
+    {
+      "code": "RD07",
+      "no": "07",
+      "name": "RD07 测试研发项目",
+      "startDate": "202204",
+      "endDate": "202302",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 48.4,
+      "spendingByYear": {
+        "2023": 48.4,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 7
+    },
+    {
+      "code": "RD08",
+      "no": "08",
+      "name": "RD08 测试研发项目",
+      "startDate": "202206",
+      "endDate": "202301",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP04"
+      ],
+      "budgetTotal": 12.44,
+      "spendingByYear": {
+        "2023": 12.44,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 8
+    },
+    {
+      "code": "RD09",
+      "no": "09",
+      "name": "RD09 测试研发项目",
+      "startDate": "202205",
+      "endDate": "202308",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 58.71,
+      "spendingByYear": {
+        "2023": 58.71,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 9
+    },
+    {
+      "code": "RD10",
+      "no": "10",
+      "name": "RD10 测试研发项目",
+      "startDate": "202207",
+      "endDate": "202308",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 118.18,
+      "spendingByYear": {
+        "2023": 118.18,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 10
+    },
+    {
+      "code": "RD11",
+      "no": "11",
+      "name": "RD11 测试研发项目",
+      "startDate": "202208",
+      "endDate": "202312",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 256.75,
+      "spendingByYear": {
+        "2023": 256.75,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 11
+    },
+    {
+      "code": "RD12",
+      "no": "12",
+      "name": "RD12 测试研发项目",
+      "startDate": "202208",
+      "endDate": "202305",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP18"
+      ],
+      "budgetTotal": 28.78,
+      "spendingByYear": {
+        "2023": 28.78,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 12
+    },
+    {
+      "code": "RD13",
+      "no": "13",
+      "name": "RD13 测试研发项目",
+      "startDate": "202209",
+      "endDate": "202409",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP05"
+      ],
+      "budgetTotal": 421.36,
+      "spendingByYear": {
+        "2023": 253.84,
+        "2024": 167.52,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 13
+    },
+    {
+      "code": "RD14",
+      "no": "14",
+      "name": "RD14 测试研发项目",
+      "startDate": "202209",
+      "endDate": "202307",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP27"
+      ],
+      "budgetTotal": 82.96,
+      "spendingByYear": {
+        "2023": 82.96,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 14
+    },
+    {
+      "code": "RD15",
+      "no": "15",
+      "name": "RD15 测试研发项目",
+      "startDate": "202210",
+      "endDate": "202306",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP02"
+      ],
+      "budgetTotal": 139.44,
+      "spendingByYear": {
+        "2023": 139.44,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 15
+    },
+    {
+      "code": "RD16",
+      "no": "16",
+      "name": "RD16 测试研发项目",
+      "startDate": "202210",
+      "endDate": "202312",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP03"
+      ],
+      "budgetTotal": 113.57,
+      "spendingByYear": {
+        "2023": 113.57,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 16
+    },
+    {
+      "code": "RD17",
+      "no": "17",
+      "name": "RD17 测试研发项目",
+      "startDate": "202212",
+      "endDate": "202308",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP01"
+      ],
+      "budgetTotal": 57.03,
+      "spendingByYear": {
+        "2023": 57.03,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 17
+    },
+    {
+      "code": "RD18",
+      "no": "18",
+      "name": "RD18 测试研发项目",
+      "startDate": "202212",
+      "endDate": "202307",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP17"
+      ],
+      "budgetTotal": 83.38,
+      "spendingByYear": {
+        "2023": 83.38,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 18
+    },
+    {
+      "code": "RD19",
+      "no": "19",
+      "name": "RD19 测试研发项目",
+      "startDate": "202301",
+      "endDate": "202308",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP20"
+      ],
+      "budgetTotal": 75.87,
+      "spendingByYear": {
+        "2023": 75.87,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 19
+    },
+    {
+      "code": "RD20",
+      "no": "20",
+      "name": "RD20 测试研发项目",
+      "startDate": "202302",
+      "endDate": "202311",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP42"
+      ],
+      "budgetTotal": 136.01,
+      "spendingByYear": {
+        "2023": 136.01,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 20
+    },
+    {
+      "code": "RD21",
+      "no": "21",
+      "name": "RD21 测试研发项目",
+      "startDate": "202302",
+      "endDate": "202402",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP43"
+      ],
+      "budgetTotal": 81.59,
+      "spendingByYear": {
+        "2023": 70.92,
+        "2024": 10.67,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 21
+    },
+    {
+      "code": "RD22",
+      "no": "22",
+      "name": "RD22 测试研发项目",
+      "startDate": "202302",
+      "endDate": "202310",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP24"
+      ],
+      "budgetTotal": 35.72,
+      "spendingByYear": {
+        "2023": 35.72,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 22
+    },
+    {
+      "code": "RD23",
+      "no": "23",
+      "name": "RD23 测试研发项目",
+      "startDate": "202302",
+      "endDate": "202308",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP44"
+      ],
+      "budgetTotal": 36.4,
+      "spendingByYear": {
+        "2023": 36.4,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 23
+    },
+    {
+      "code": "RD24",
+      "no": "24",
+      "name": "RD24 测试研发项目",
+      "startDate": "202303",
+      "endDate": "202312",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP23"
+      ],
+      "budgetTotal": 110.38,
+      "spendingByYear": {
+        "2023": 110.38,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 24
+    },
+    {
+      "code": "RD25",
+      "no": "25",
+      "name": "RD25 测试研发项目",
+      "startDate": "202303",
+      "endDate": "202310",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP25"
+      ],
+      "budgetTotal": 73.88,
+      "spendingByYear": {
+        "2023": 73.88,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 25
+    },
+    {
+      "code": "RD26",
+      "no": "26",
+      "name": "RD26 测试研发项目",
+      "startDate": "202304",
+      "endDate": "202401",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP10"
+      ],
+      "budgetTotal": 279.4,
+      "spendingByYear": {
+        "2023": 277.94,
+        "2024": 1.46,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 26
+    },
+    {
+      "code": "RD27",
+      "no": "27",
+      "name": "RD27 测试研发项目",
+      "startDate": "202304",
+      "endDate": "202504",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP21"
+      ],
+      "budgetTotal": 917.75,
+      "spendingByYear": {
+        "2023": 302.46,
+        "2024": 514.27,
+        "2025": 101.02
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 27
+    },
+    {
+      "code": "RD28",
+      "no": "28",
+      "name": "RD28 测试研发项目",
+      "startDate": "202304",
+      "endDate": "202405",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP12"
+      ],
+      "budgetTotal": 443.63,
+      "spendingByYear": {
+        "2023": 356.01,
+        "2024": 87.62,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 28
+    },
+    {
+      "code": "RD29",
+      "no": "29",
+      "name": "RD29 测试研发项目",
+      "startDate": "202306",
+      "endDate": "202312",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP11"
+      ],
+      "budgetTotal": 137.49,
+      "spendingByYear": {
+        "2023": 137.49,
+        "2024": 0.0,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 29
+    },
+    {
+      "code": "RD30",
+      "no": "30",
+      "name": "RD30 测试研发项目",
+      "startDate": "202306",
+      "endDate": "202401",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP30"
+      ],
+      "budgetTotal": 52.99,
+      "spendingByYear": {
+        "2023": 43.3,
+        "2024": 9.69,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 30
+    },
+    {
+      "code": "RD31",
+      "no": "31",
+      "name": "RD31 测试研发项目",
+      "startDate": "202306",
+      "endDate": "202401",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP22"
+      ],
+      "budgetTotal": 263.03,
+      "spendingByYear": {
+        "2023": 252.63,
+        "2024": 10.4,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 31
+    },
+    {
+      "code": "RD32",
+      "no": "32",
+      "name": "RD32 测试研发项目",
+      "startDate": "202306",
+      "endDate": "202401",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP28"
+      ],
+      "budgetTotal": 190.12,
+      "spendingByYear": {
+        "2023": 180.43,
+        "2024": 9.69,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 32
+    },
+    {
+      "code": "RD33",
+      "no": "33",
+      "name": "RD33 测试研发项目",
+      "startDate": "202307",
+      "endDate": "202407",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP14"
+      ],
+      "budgetTotal": 197.09,
+      "spendingByYear": {
+        "2023": 153.77,
+        "2024": 43.32,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 33
+    },
+    {
+      "code": "RD34",
+      "no": "34",
+      "name": "RD34 测试研发项目",
+      "startDate": "202308",
+      "endDate": "202508",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP26"
+      ],
+      "budgetTotal": 903.61,
+      "spendingByYear": {
+        "2023": 130.57,
+        "2024": 247.66,
+        "2025": 525.38
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 34
+    },
+    {
+      "code": "RD35",
+      "no": "35",
+      "name": "RD35 测试研发项目",
+      "startDate": "202309",
+      "endDate": "202412",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP29"
+      ],
+      "budgetTotal": 232.76,
+      "spendingByYear": {
+        "2023": 86.71,
+        "2024": 146.05,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 35
+    },
+    {
+      "code": "RD36",
+      "no": "36",
+      "name": "RD36 测试研发项目",
+      "startDate": "202310",
+      "endDate": "202410",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP38"
+      ],
+      "budgetTotal": 368.52,
+      "spendingByYear": {
+        "2023": 65.81,
+        "2024": 302.71,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 36
+    },
+    {
+      "code": "RD37",
+      "no": "37",
+      "name": "RD37 测试研发项目",
+      "startDate": "202312",
+      "endDate": "202502",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP32"
+      ],
+      "budgetTotal": 188.48,
+      "spendingByYear": {
+        "2023": 0.89,
+        "2024": 187.16,
+        "2025": 0.43
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 37
+    },
+    {
+      "code": "RD38",
+      "no": "38",
+      "name": "RD38 测试研发项目",
+      "startDate": "202312",
+      "endDate": "202412",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP33"
+      ],
+      "budgetTotal": 311.3,
+      "spendingByYear": {
+        "2023": 0.19,
+        "2024": 311.11,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 38
+    },
+    {
+      "code": "RD39",
+      "no": "39",
+      "name": "RD39 测试研发项目",
+      "startDate": "202312",
+      "endDate": "202502",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP34"
+      ],
+      "budgetTotal": 127.41,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 124.69,
+        "2025": 2.72
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 39
+    },
+    {
+      "code": "RD40",
+      "no": "40",
+      "name": "RD40 测试研发项目",
+      "startDate": "202401",
+      "endDate": "202412",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP06"
+      ],
+      "budgetTotal": 241.03,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 241.03,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 40
+    },
+    {
+      "code": "RD41",
+      "no": "41",
+      "name": "RD41 测试研发项目",
+      "startDate": "202402",
+      "endDate": "202412",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP09"
+      ],
+      "budgetTotal": 327.87,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 327.87,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 41
+    },
+    {
+      "code": "RD42",
+      "no": "42",
+      "name": "RD42 测试研发项目",
+      "startDate": "202403",
+      "endDate": "202512",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP41"
+      ],
+      "budgetTotal": 684.48,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 355.3,
+        "2025": 329.18
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 42
+    },
+    {
+      "code": "RD43",
+      "no": "43",
+      "name": "RD43 测试研发项目",
+      "startDate": "202404",
+      "endDate": "202712",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP13"
+      ],
+      "budgetTotal": 1054.16,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 596.74,
+        "2025": 457.42
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 43
+    },
+    {
+      "code": "RD44",
+      "no": "44",
+      "name": "RD44 测试研发项目",
+      "startDate": "202405",
+      "endDate": "202412",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP46"
+      ],
+      "budgetTotal": 298.5,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 298.5,
+        "2025": 0.0
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 44
+    },
+    {
+      "code": "RD45",
+      "no": "45",
+      "name": "RD45 测试研发项目",
+      "startDate": "202401",
+      "endDate": "202612",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 1176.53,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 340.44,
+        "2025": 836.09
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 45
+    },
+    {
+      "code": "RD46",
+      "no": "46",
+      "name": "RD46 测试研发项目",
+      "startDate": "202401",
+      "endDate": "202612",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 929.23,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 630.78,
+        "2025": 298.45
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 46
+    },
+    {
+      "code": "RD47",
+      "no": "47",
+      "name": "RD47 测试研发项目",
+      "startDate": "202407",
+      "endDate": "202506",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP37"
+      ],
+      "budgetTotal": 179.83,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 55.93,
+        "2025": 123.9
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 47
+    },
+    {
+      "code": "RD48",
+      "no": "48",
+      "name": "RD48 测试研发项目",
+      "startDate": "202408",
+      "endDate": "202508",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP08"
+      ],
+      "budgetTotal": 207.54,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 105.69,
+        "2025": 101.85
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 48
+    },
+    {
+      "code": "RD49",
+      "no": "49",
+      "name": "RD49 测试研发项目",
+      "startDate": "202411",
+      "endDate": "202503",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP36"
+      ],
+      "budgetTotal": 99.49,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 56.21,
+        "2025": 43.28
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 49
+    },
+    {
+      "code": "RD50",
+      "no": "50",
+      "name": "RD50 测试研发项目",
+      "startDate": "202501",
+      "endDate": "202512",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP40"
+      ],
+      "budgetTotal": 366.58,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 366.58
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 50
+    },
+    {
+      "code": "RD51",
+      "no": "51",
+      "name": "RD51 测试研发项目",
+      "startDate": "202501",
+      "endDate": "202512",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP07"
+      ],
+      "budgetTotal": 294.01,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 294.01
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 51
+    },
+    {
+      "code": "RD52",
+      "no": "52",
+      "name": "RD52 测试研发项目",
+      "startDate": "202501",
+      "endDate": "202512",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP39"
+      ],
+      "budgetTotal": 148.03,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 148.03
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 52
+    },
+    {
+      "code": "RD53",
+      "no": "53",
+      "name": "RD53 测试研发项目",
+      "startDate": "202504",
+      "endDate": "202703",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP19"
+      ],
+      "budgetTotal": 362.25,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 362.25
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 53
+    },
+    {
+      "code": "RD54",
+      "no": "54",
+      "name": "RD54 测试研发项目",
+      "startDate": "202505",
+      "endDate": "202612",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP35"
+      ],
+      "budgetTotal": 419.55,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 419.55
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 54
+    },
+    {
+      "code": "RD55",
+      "no": "55",
+      "name": "RD55 测试研发项目",
+      "startDate": "202505",
+      "endDate": "202612",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP15"
+      ],
+      "budgetTotal": 276.94,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 276.94
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 55
+    },
+    {
+      "code": "RD56",
+      "no": "56",
+      "name": "RD56 测试研发项目",
+      "startDate": "202507",
+      "endDate": "202607",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 154.1,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 154.1
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 56
+    },
+    {
+      "code": "RD57",
+      "no": "57",
+      "name": "RD57 测试研发项目",
+      "startDate": "202508",
+      "endDate": "202607",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 101.85,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 101.85
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 57
+    },
+    {
+      "code": "RD58",
+      "no": "58",
+      "name": "RD58 测试研发项目",
+      "startDate": "202508",
+      "endDate": "202608",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 311.77,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 311.77
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 58
+    },
+    {
+      "code": "RD59",
+      "no": "59",
+      "name": "RD59 测试研发项目",
+      "startDate": "202508",
+      "endDate": "202608",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [
+        "IP45"
+      ],
+      "budgetTotal": 173.64,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 173.64
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 59
+    },
+    {
+      "code": "RD60",
+      "no": "60",
+      "name": "RD60 测试研发项目",
+      "startDate": "202511",
+      "endDate": "202612",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 226.21,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 226.21
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 60
+    },
+    {
+      "code": "RD61",
+      "no": "61",
+      "name": "RD61 测试研发项目",
+      "startDate": "202512",
+      "endDate": "202612",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 15.24,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 15.24
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 61
+    },
+    {
+      "code": "RD62",
+      "no": "62",
+      "name": "RD62 测试研发项目",
+      "startDate": "202512",
+      "endDate": "202612",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "relatedIpCodes": [],
+      "budgetTotal": 44.93,
+      "spendingByYear": {
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 44.93
+      },
+      "purposeAndOrganization": "围绕测试产品性能提升开展研发，采用企业自主研发组织方式，形成可验证的技术方案。",
+      "coreTechnologyAndInnovation": "核心技术包括控制算法优化、结构参数匹配和可靠性验证，创新点体现在效率、稳定性和工程适配性提升。",
+      "achievements": "已完成样机验证、测试报告、知识产权布局及成果转化准备。",
+      "orderNo": 62
+    }
+  ],
+  "rdFees": [
+    {
+      "rdCode": "RD01",
+      "year": 2023,
+      "internal": {
+        "personnel": 2.22,
+        "directInput": 0.01,
+        "depreciation": 0.63,
+        "amortization": 0.09,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 1.06
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 1
+    },
+    {
+      "rdCode": "RD02",
+      "year": 2023,
+      "internal": {
+        "personnel": 4.05,
+        "directInput": 14.74,
+        "depreciation": 0.61,
+        "amortization": 0.08,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 3.45
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 2
+    },
+    {
+      "rdCode": "RD03",
+      "year": 2023,
+      "internal": {
+        "personnel": 0.01,
+        "directInput": 0.01,
+        "depreciation": 0.01,
+        "amortization": 0.01,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 1.57
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 3
+    },
+    {
+      "rdCode": "RD04",
+      "year": 2023,
+      "internal": {
+        "personnel": 31.53,
+        "directInput": 51.11,
+        "depreciation": 4.82,
+        "amortization": 1.19,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 13.68
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 4
+    },
+    {
+      "rdCode": "RD05",
+      "year": 2023,
+      "internal": {
+        "personnel": 0.01,
+        "directInput": 0.01,
+        "depreciation": 0.01,
+        "amortization": 0.01,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.12
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 5
+    },
+    {
+      "rdCode": "RD06",
+      "year": 2023,
+      "internal": {
+        "personnel": 30.23,
+        "directInput": 128.47,
+        "depreciation": 6.15,
+        "amortization": 0.86,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.51
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 6
+    },
+    {
+      "rdCode": "RD07",
+      "year": 2023,
+      "internal": {
+        "personnel": 1.52,
+        "directInput": 41.24,
+        "depreciation": 0.01,
+        "amortization": 0.01,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 5.59
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 7
+    },
+    {
+      "rdCode": "RD08",
+      "year": 2023,
+      "internal": {
+        "personnel": 9.47,
+        "directInput": 0.65,
+        "depreciation": 1.68,
+        "amortization": 0.24,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.37
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 8
+    },
+    {
+      "rdCode": "RD09",
+      "year": 2023,
+      "internal": {
+        "personnel": 33.84,
+        "directInput": 9.77,
+        "depreciation": 4.97,
+        "amortization": 0.67,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 9.43
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 9
+    },
+    {
+      "rdCode": "RD10",
+      "year": 2023,
+      "internal": {
+        "personnel": 35.59,
+        "directInput": 62.93,
+        "depreciation": 8.56,
+        "amortization": 1.18,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 9.89
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 10
+    },
+    {
+      "rdCode": "RD11",
+      "year": 2023,
+      "internal": {
+        "personnel": 42.97,
+        "directInput": 177.22,
+        "depreciation": 12.63,
+        "amortization": 1.26,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 22.64
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 11
+    },
+    {
+      "rdCode": "RD12",
+      "year": 2023,
+      "internal": {
+        "personnel": 4.61,
+        "directInput": 20.97,
+        "depreciation": 1.01,
+        "amortization": 0.14,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.02
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 12
+    },
+    {
+      "rdCode": "RD13",
+      "year": 2023,
+      "internal": {
+        "personnel": 115.17,
+        "directInput": 99.99,
+        "depreciation": 25.7,
+        "amortization": 3.54,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 9.41
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 13
+    },
+    {
+      "rdCode": "RD14",
+      "year": 2023,
+      "internal": {
+        "personnel": 38.57,
+        "directInput": 32.47,
+        "depreciation": 8.32,
+        "amortization": 0.77,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.8
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 14
+    },
+    {
+      "rdCode": "RD15",
+      "year": 2023,
+      "internal": {
+        "personnel": 79.21,
+        "directInput": 40.05,
+        "depreciation": 12.83,
+        "amortization": 1.75,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 5.57
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 15
+    },
+    {
+      "rdCode": "RD16",
+      "year": 2023,
+      "internal": {
+        "personnel": 38.84,
+        "directInput": 51.78,
+        "depreciation": 7.55,
+        "amortization": 0.92,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 14.45
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 16
+    },
+    {
+      "rdCode": "RD17",
+      "year": 2023,
+      "internal": {
+        "personnel": 16.85,
+        "directInput": 30.67,
+        "depreciation": 5.68,
+        "amortization": 0.8,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 3.0
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 17
+    },
+    {
+      "rdCode": "RD18",
+      "year": 2023,
+      "internal": {
+        "personnel": 39.6,
+        "directInput": 26.84,
+        "depreciation": 10.95,
+        "amortization": 1.51,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 4.45
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 18
+    },
+    {
+      "rdCode": "RD19",
+      "year": 2023,
+      "internal": {
+        "personnel": 31.42,
+        "directInput": 33.46,
+        "depreciation": 8.09,
+        "amortization": 1.12,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 1.75
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 19
+    },
+    {
+      "rdCode": "RD20",
+      "year": 2023,
+      "internal": {
+        "personnel": 60.45,
+        "directInput": 52.07,
+        "depreciation": 14.22,
+        "amortization": 2.7,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 6.54
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 20
+    },
+    {
+      "rdCode": "RD21",
+      "year": 2023,
+      "internal": {
+        "personnel": 44.34,
+        "directInput": 13.89,
+        "depreciation": 9.14,
+        "amortization": 0.86,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.66
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 21
+    },
+    {
+      "rdCode": "RD22",
+      "year": 2023,
+      "internal": {
+        "personnel": 21.03,
+        "directInput": 9.51,
+        "depreciation": 3.79,
+        "amortization": 0.51,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.85
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 22
+    },
+    {
+      "rdCode": "RD23",
+      "year": 2023,
+      "internal": {
+        "personnel": 23.36,
+        "directInput": 4.76,
+        "depreciation": 4.57,
+        "amortization": 0.6,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 3.08
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 23
+    },
+    {
+      "rdCode": "RD24",
+      "year": 2023,
+      "internal": {
+        "personnel": 65.95,
+        "directInput": 21.75,
+        "depreciation": 10.65,
+        "amortization": 1.85,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 10.15
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 24
+    },
+    {
+      "rdCode": "RD25",
+      "year": 2023,
+      "internal": {
+        "personnel": 45.97,
+        "directInput": 13.39,
+        "depreciation": 10.48,
+        "amortization": 1.26,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.75
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 25
+    },
+    {
+      "rdCode": "RD26",
+      "year": 2023,
+      "internal": {
+        "personnel": 111.69,
+        "directInput": 128.98,
+        "depreciation": 24.43,
+        "amortization": 3.48,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 9.33
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 26
+    },
+    {
+      "rdCode": "RD27",
+      "year": 2023,
+      "internal": {
+        "personnel": 179.51,
+        "directInput": 73.2,
+        "depreciation": 31.21,
+        "amortization": 4.51,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 14.0
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 27
+    },
+    {
+      "rdCode": "RD28",
+      "year": 2023,
+      "internal": {
+        "personnel": 154.38,
+        "directInput": 156.91,
+        "depreciation": 31.03,
+        "amortization": 3.08,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 10.58
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 28
+    },
+    {
+      "rdCode": "RD29",
+      "year": 2023,
+      "internal": {
+        "personnel": 59.22,
+        "directInput": 65.03,
+        "depreciation": 8.19,
+        "amortization": 0.96,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 4.06
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 29
+    },
+    {
+      "rdCode": "RD30",
+      "year": 2023,
+      "internal": {
+        "personnel": 21.16,
+        "directInput": 16.55,
+        "depreciation": 2.47,
+        "amortization": 0.42,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.67
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 30
+    },
+    {
+      "rdCode": "RD31",
+      "year": 2023,
+      "internal": {
+        "personnel": 94.86,
+        "directInput": 130.28,
+        "depreciation": 15.85,
+        "amortization": 2.72,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 8.89
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 31
+    },
+    {
+      "rdCode": "RD32",
+      "year": 2023,
+      "internal": {
+        "personnel": 39.7,
+        "directInput": 126.39,
+        "depreciation": 9.23,
+        "amortization": 1.17,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 3.91
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 32
+    },
+    {
+      "rdCode": "RD33",
+      "year": 2023,
+      "internal": {
+        "personnel": 68.12,
+        "directInput": 64.84,
+        "depreciation": 11.16,
+        "amortization": 2.91,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 6.71
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 33
+    },
+    {
+      "rdCode": "RD34",
+      "year": 2023,
+      "internal": {
+        "personnel": 64.77,
+        "directInput": 44.54,
+        "depreciation": 9.4,
+        "amortization": 3.39,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 8.44
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 34
+    },
+    {
+      "rdCode": "RD35",
+      "year": 2023,
+      "internal": {
+        "personnel": 34.78,
+        "directInput": 41.05,
+        "depreciation": 5.36,
+        "amortization": 0.74,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 4.75
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 35
+    },
+    {
+      "rdCode": "RD36",
+      "year": 2023,
+      "internal": {
+        "personnel": 35.28,
+        "directInput": 24.74,
+        "depreciation": 2.91,
+        "amortization": 0.76,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.09
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 36
+    },
+    {
+      "rdCode": "RD37",
+      "year": 2023,
+      "internal": {
+        "personnel": 0.02,
+        "directInput": 0.26,
+        "depreciation": 0.01,
+        "amortization": 0.01,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.56
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 37
+    },
+    {
+      "rdCode": "RD38",
+      "year": 2023,
+      "internal": {
+        "personnel": 0.01,
+        "directInput": 0.01,
+        "depreciation": 0.01,
+        "amortization": 0.01,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.12
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 38
+    },
+    {
+      "rdCode": "RD13",
+      "year": 2024,
+      "internal": {
+        "personnel": 31.42,
+        "directInput": 125.83,
+        "depreciation": 3.15,
+        "amortization": 0.91,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 6.18
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 1
+    },
+    {
+      "rdCode": "RD21",
+      "year": 2024,
+      "internal": {
+        "personnel": 7.62,
+        "directInput": 0.52,
+        "depreciation": 0.87,
+        "amortization": 0.24,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 1.39
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 2
+    },
+    {
+      "rdCode": "RD26",
+      "year": 2024,
+      "internal": {
+        "personnel": 0.01,
+        "directInput": 0.01,
+        "depreciation": 0.01,
+        "amortization": 0.01,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 1.39
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 3
+    },
+    {
+      "rdCode": "RD27",
+      "year": 2024,
+      "internal": {
+        "personnel": 171.15,
+        "directInput": 281.81,
+        "depreciation": 19.26,
+        "amortization": 5.92,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 36.1
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 4
+    },
+    {
+      "rdCode": "RD28",
+      "year": 2024,
+      "internal": {
+        "personnel": 28.84,
+        "directInput": 39.03,
+        "depreciation": 4.61,
+        "amortization": 1.32,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 13.79
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 5
+    },
+    {
+      "rdCode": "RD30",
+      "year": 2024,
+      "internal": {
+        "personnel": 6.46,
+        "directInput": 0.46,
+        "depreciation": 1.02,
+        "amortization": 0.28,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 1.44
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 6
+    },
+    {
+      "rdCode": "RD31",
+      "year": 2024,
+      "internal": {
+        "personnel": 8.06,
+        "directInput": 0.01,
+        "depreciation": 1.25,
+        "amortization": 0.24,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.81
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 7
+    },
+    {
+      "rdCode": "RD32",
+      "year": 2024,
+      "internal": {
+        "personnel": 7.41,
+        "directInput": 0.08,
+        "depreciation": 0.92,
+        "amortization": 0.25,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 1.0
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 8
+    },
+    {
+      "rdCode": "RD33",
+      "year": 2024,
+      "internal": {
+        "personnel": 22.67,
+        "directInput": 15.51,
+        "depreciation": 2.6,
+        "amortization": 0.72,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 1.79
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 9
+    },
+    {
+      "rdCode": "RD34",
+      "year": 2024,
+      "internal": {
+        "personnel": 94.44,
+        "directInput": 111.44,
+        "depreciation": 11.69,
+        "amortization": 3.49,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 26.57
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 10
+    },
+    {
+      "rdCode": "RD35",
+      "year": 2024,
+      "internal": {
+        "personnel": 41.44,
+        "directInput": 89.69,
+        "depreciation": 5.2,
+        "amortization": 1.67,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 8.02
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 11
+    },
+    {
+      "rdCode": "RD36",
+      "year": 2024,
+      "internal": {
+        "personnel": 91.62,
+        "directInput": 186.34,
+        "depreciation": 11.04,
+        "amortization": 3.26,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 10.42
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 12
+    },
+    {
+      "rdCode": "RD37",
+      "year": 2024,
+      "internal": {
+        "personnel": 112.55,
+        "directInput": 49.12,
+        "depreciation": 16.01,
+        "amortization": 5.06,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 4.39
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 13
+    },
+    {
+      "rdCode": "RD38",
+      "year": 2024,
+      "internal": {
+        "personnel": 185.46,
+        "directInput": 84.4,
+        "depreciation": 25.06,
+        "amortization": 5.64,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 10.52
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 14
+    },
+    {
+      "rdCode": "RD39",
+      "year": 2024,
+      "internal": {
+        "personnel": 48.49,
+        "directInput": 65.09,
+        "depreciation": 2.86,
+        "amortization": 0.93,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 7.29
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 15
+    },
+    {
+      "rdCode": "RD40",
+      "year": 2024,
+      "internal": {
+        "personnel": 126.96,
+        "directInput": 59.6,
+        "depreciation": 11.78,
+        "amortization": 3.57,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 39.09
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 16
+    },
+    {
+      "rdCode": "RD41",
+      "year": 2024,
+      "internal": {
+        "personnel": 93.76,
+        "directInput": 206.31,
+        "depreciation": 12.44,
+        "amortization": 3.86,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 11.47
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 17
+    },
+    {
+      "rdCode": "RD42",
+      "year": 2024,
+      "internal": {
+        "personnel": 164.8,
+        "directInput": 155.19,
+        "depreciation": 18.14,
+        "amortization": 5.76,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 11.38
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 18
+    },
+    {
+      "rdCode": "RD43",
+      "year": 2024,
+      "internal": {
+        "personnel": 177.03,
+        "directInput": 379.1,
+        "depreciation": 17.68,
+        "amortization": 5.89,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 17.01
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 19
+    },
+    {
+      "rdCode": "RD44",
+      "year": 2024,
+      "internal": {
+        "personnel": 136.05,
+        "directInput": 133.6,
+        "depreciation": 12.97,
+        "amortization": 4.18,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 11.67
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 20
+    },
+    {
+      "rdCode": "RD45",
+      "year": 2024,
+      "internal": {
+        "personnel": 185.56,
+        "directInput": 97.28,
+        "depreciation": 16.48,
+        "amortization": 3.93,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 37.16
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 21
+    },
+    {
+      "rdCode": "RD46",
+      "year": 2024,
+      "internal": {
+        "personnel": 145.91,
+        "directInput": 149.63,
+        "depreciation": 10.52,
+        "amortization": 3.59,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 321.1
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 22
+    },
+    {
+      "rdCode": "RD47",
+      "year": 2024,
+      "internal": {
+        "personnel": 31.58,
+        "directInput": 18.66,
+        "depreciation": 2.65,
+        "amortization": 0.92,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.09
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 23
+    },
+    {
+      "rdCode": "RD48",
+      "year": 2024,
+      "internal": {
+        "personnel": 51.26,
+        "directInput": 42.45,
+        "depreciation": 4.99,
+        "amortization": 1.72,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 5.24
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 24
+    },
+    {
+      "rdCode": "RD49",
+      "year": 2024,
+      "internal": {
+        "personnel": 34.76,
+        "directInput": 18.4,
+        "depreciation": 2.0,
+        "amortization": 0.81,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.21
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 25
+    },
+    {
+      "rdCode": "RD27",
+      "year": 2025,
+      "internal": {
+        "personnel": 74.99,
+        "directInput": 0.01,
+        "depreciation": 6.8,
+        "amortization": 2.57,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 16.62
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 1
+    },
+    {
+      "rdCode": "RD34",
+      "year": 2025,
+      "internal": {
+        "personnel": 70.05,
+        "directInput": 72.56,
+        "depreciation": 8.69,
+        "amortization": 3.31,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 370.74
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 2
+    },
+    {
+      "rdCode": "RD37",
+      "year": 2025,
+      "internal": {
+        "personnel": 0.01,
+        "directInput": 0.2,
+        "depreciation": 0.01,
+        "amortization": 0.01,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.17
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 3
+    },
+    {
+      "rdCode": "RD39",
+      "year": 2025,
+      "internal": {
+        "personnel": 0.01,
+        "directInput": 2.3,
+        "depreciation": 0.01,
+        "amortization": 0.01,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.36
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 4
+    },
+    {
+      "rdCode": "RD42",
+      "year": 2025,
+      "internal": {
+        "personnel": 129.06,
+        "directInput": 78.67,
+        "depreciation": 15.69,
+        "amortization": 5.18,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 100.55
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 5
+    },
+    {
+      "rdCode": "RD43",
+      "year": 2025,
+      "internal": {
+        "personnel": 124.8,
+        "directInput": 227.39,
+        "depreciation": 18.72,
+        "amortization": 6.79,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 79.69
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 6
+    },
+    {
+      "rdCode": "RD45",
+      "year": 2025,
+      "internal": {
+        "personnel": 212.15,
+        "directInput": 471.35,
+        "depreciation": 29.02,
+        "amortization": 7.76,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 115.78
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 7
+    },
+    {
+      "rdCode": "RD46",
+      "year": 2025,
+      "internal": {
+        "personnel": 178.17,
+        "directInput": 90.88,
+        "depreciation": 21.27,
+        "amortization": 8.09,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 0.01
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 8
+    },
+    {
+      "rdCode": "RD47",
+      "year": 2025,
+      "internal": {
+        "personnel": 75.52,
+        "directInput": 19.94,
+        "depreciation": 9.54,
+        "amortization": 3.62,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 15.25
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 9
+    },
+    {
+      "rdCode": "RD48",
+      "year": 2025,
+      "internal": {
+        "personnel": 37.18,
+        "directInput": 36.21,
+        "depreciation": 6.22,
+        "amortization": 2.34,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 19.87
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 10
+    },
+    {
+      "rdCode": "RD49",
+      "year": 2025,
+      "internal": {
+        "personnel": 28.49,
+        "directInput": 5.31,
+        "depreciation": 5.37,
+        "amortization": 1.99,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.09
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 11
+    },
+    {
+      "rdCode": "RD50",
+      "year": 2025,
+      "internal": {
+        "personnel": 153.28,
+        "directInput": 126.32,
+        "depreciation": 19.22,
+        "amortization": 7.79,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 59.94
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 12
+    },
+    {
+      "rdCode": "RD51",
+      "year": 2025,
+      "internal": {
+        "personnel": 128.77,
+        "directInput": 87.48,
+        "depreciation": 19.63,
+        "amortization": 6.9,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 51.2
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 13
+    },
+    {
+      "rdCode": "RD52",
+      "year": 2025,
+      "internal": {
+        "personnel": 89.32,
+        "directInput": 21.14,
+        "depreciation": 12.95,
+        "amortization": 3.5,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 21.09
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 14
+    },
+    {
+      "rdCode": "RD53",
+      "year": 2025,
+      "internal": {
+        "personnel": 164.33,
+        "directInput": 126.3,
+        "depreciation": 13.42,
+        "amortization": 4.7,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 53.47
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 15
+    },
+    {
+      "rdCode": "RD54",
+      "year": 2025,
+      "internal": {
+        "personnel": 152.87,
+        "directInput": 195.79,
+        "depreciation": 13.17,
+        "amortization": 4.62,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 53.07
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 16
+    },
+    {
+      "rdCode": "RD55",
+      "year": 2025,
+      "internal": {
+        "personnel": 82.79,
+        "directInput": 133.66,
+        "depreciation": 10.51,
+        "amortization": 3.49,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 46.46
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 17
+    },
+    {
+      "rdCode": "RD56",
+      "year": 2025,
+      "internal": {
+        "personnel": 75.14,
+        "directInput": 41.58,
+        "depreciation": 7.49,
+        "amortization": 2.17,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 27.69
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 18
+    },
+    {
+      "rdCode": "RD57",
+      "year": 2025,
+      "internal": {
+        "personnel": 70.05,
+        "directInput": 2.49,
+        "depreciation": 5.99,
+        "amortization": 1.67,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 21.62
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 19
+    },
+    {
+      "rdCode": "RD58",
+      "year": 2025,
+      "internal": {
+        "personnel": 130.29,
+        "directInput": 117.56,
+        "depreciation": 12.54,
+        "amortization": 3.68,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 47.67
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 20
+    },
+    {
+      "rdCode": "RD59",
+      "year": 2025,
+      "internal": {
+        "personnel": 96.26,
+        "directInput": 32.2,
+        "depreciation": 9.53,
+        "amortization": 2.02,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 33.6
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 21
+    },
+    {
+      "rdCode": "RD60",
+      "year": 2025,
+      "internal": {
+        "personnel": 7.18,
+        "directInput": 216.42,
+        "depreciation": 0.21,
+        "amortization": 0.04,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.33
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 22
+    },
+    {
+      "rdCode": "RD61",
+      "year": 2025,
+      "internal": {
+        "personnel": 7.01,
+        "directInput": 5.54,
+        "depreciation": 0.2,
+        "amortization": 0.04,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.42
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 23
+    },
+    {
+      "rdCode": "RD62",
+      "year": 2025,
+      "internal": {
+        "personnel": 5.33,
+        "directInput": 37.09,
+        "depreciation": 0.21,
+        "amortization": 0.04,
+        "design": 0.01,
+        "equipmentDebugTrial": 0.01,
+        "other": 2.23
+      },
+      "external": {
+        "entrusted": 0.01,
+        "domesticEntrusted": 0.01
+      },
+      "fillUser": "测试填报人",
+      "fillDate": "2026-06-17",
+      "orderNo": 24
+    }
+  ],
+  "products": [
+    {
+      "code": "PS01",
+      "no": "01",
+      "name": "PS01 测试产品",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "salesRevenue": 74635.87,
+      "isMainProduct": false,
+      "relatedIpCodes": [
+        "IP01",
+        "IP03",
+        "IP12",
+        "IP13",
+        "IP14",
+        "IP22",
+        "IP26",
+        "IP27",
+        "IP35",
+        "IP38",
+        "IP39",
+        "IP41",
+        "IP42",
+        "IP45"
+      ],
+      "keyTechnology": "采用自主研发技术实现关键性能提升，适用于工业应用场景。",
+      "mainTechnicalIndicators": "主要指标包括效率、可靠性、响应速度和环境适应性，均满足测试场景要求。",
+      "competitiveAdvantage": "与同类产品相比，在稳定性、维护便利性和综合成本方面具有示例竞争优势。",
+      "ipSupport": "相关知识产权对产品核心功能、结构设计和控制方法形成支撑。",
+      "orderNo": 1
+    },
+    {
+      "code": "PS02",
+      "no": "02",
+      "name": "PS02 测试产品",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "salesRevenue": 3208.86,
+      "isMainProduct": false,
+      "relatedIpCodes": [
+        "IP02",
+        "IP04",
+        "IP05",
+        "IP07",
+        "IP08",
+        "IP18",
+        "IP31",
+        "IP40",
+        "IP46"
+      ],
+      "keyTechnology": "采用自主研发技术实现关键性能提升，适用于工业应用场景。",
+      "mainTechnicalIndicators": "主要指标包括效率、可靠性、响应速度和环境适应性，均满足测试场景要求。",
+      "competitiveAdvantage": "与同类产品相比，在稳定性、维护便利性和综合成本方面具有示例竞争优势。",
+      "ipSupport": "相关知识产权对产品核心功能、结构设计和控制方法形成支撑。",
+      "orderNo": 2
+    },
+    {
+      "code": "PS03",
+      "no": "03",
+      "name": "PS03 测试产品",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "salesRevenue": 5657.1,
+      "isMainProduct": false,
+      "relatedIpCodes": [
+        "IP05",
+        "IP09",
+        "IP10",
+        "IP11",
+        "IP15",
+        "IP21",
+        "IP28",
+        "IP29",
+        "IP30",
+        "IP31"
+      ],
+      "keyTechnology": "采用自主研发技术实现关键性能提升，适用于工业应用场景。",
+      "mainTechnicalIndicators": "主要指标包括效率、可靠性、响应速度和环境适应性，均满足测试场景要求。",
+      "competitiveAdvantage": "与同类产品相比，在稳定性、维护便利性和综合成本方面具有示例竞争优势。",
+      "ipSupport": "相关知识产权对产品核心功能、结构设计和控制方法形成支撑。",
+      "orderNo": 3
+    },
+    {
+      "code": "PS04",
+      "no": "04",
+      "name": "PS04 测试产品",
+      "domain": {
+        "level1": "",
+        "level1Value": "",
+        "level2": "",
+        "level2Value": "",
+        "level3": "",
+        "level3Value": ""
+      },
+      "technologySource": "企业自有技术",
+      "technologySourceValue": "",
+      "salesRevenue": 335.0,
+      "isMainProduct": false,
+      "relatedIpCodes": [
+        "IP06",
+        "IP16",
+        "IP17",
+        "IP19",
+        "IP20",
+        "IP23",
+        "IP24",
+        "IP25",
+        "IP32",
+        "IP33",
+        "IP34",
+        "IP36",
+        "IP37",
+        "IP43",
+        "IP44"
+      ],
+      "keyTechnology": "采用自主研发技术实现关键性能提升，适用于工业应用场景。",
+      "mainTechnicalIndicators": "主要指标包括效率、可靠性、响应速度和环境适应性，均满足测试场景要求。",
+      "competitiveAdvantage": "与同类产品相比，在稳定性、维护便利性和综合成本方面具有示例竞争优势。",
+      "ipSupport": "相关知识产权对产品核心功能、结构设计和控制方法形成支撑。",
+      "orderNo": 4
+    }
+  ],
+  "innovation": {
+    "ipCompetitiveness": "",
+    "transformationSummary": "",
+    "transformations": [
+      {
+        "name": "测试科技成果01",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2023",
+        "relatedIpCodes": [
+          "IP10",
+          "IP11",
+          "IP12"
+        ],
+        "relatedRdCodes": [
+          "RD26",
+          "RD28",
+          "RD29"
+        ],
+        "relatedPsCodes": [
+          "PS01"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 1,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果02",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2023",
+        "relatedIpCodes": [
+          "IP24",
+          "IP43",
+          "IP44"
+        ],
+        "relatedRdCodes": [
+          "RD21",
+          "RD22",
+          "RD23"
+        ],
+        "relatedPsCodes": [
+          "PS02"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 2,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果03",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2023",
+        "relatedIpCodes": [
+          "IP20",
+          "IP23",
+          "IP25"
+        ],
+        "relatedRdCodes": [
+          "RD19",
+          "RD24",
+          "RD25"
+        ],
+        "relatedPsCodes": [
+          "PS03"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 3,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果04",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2023",
+        "relatedIpCodes": [
+          "IP02",
+          "IP04",
+          "IP18"
+        ],
+        "relatedRdCodes": [
+          "RD08",
+          "RD12",
+          "RD15"
+        ],
+        "relatedPsCodes": [
+          "PS04"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 4,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果05",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2023",
+        "relatedIpCodes": [
+          "IP31"
+        ],
+        "relatedRdCodes": [
+          "RD05"
+        ],
+        "relatedPsCodes": [
+          "PS01"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 5,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果06",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2023",
+        "relatedIpCodes": [
+          "IP01",
+          "IP27"
+        ],
+        "relatedRdCodes": [
+          "RD14",
+          "RD17"
+        ],
+        "relatedPsCodes": [
+          "PS02"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 6,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果07",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2024",
+        "relatedIpCodes": [
+          "IP05",
+          "IP22",
+          "IP28"
+        ],
+        "relatedRdCodes": [
+          "RD13",
+          "RD31",
+          "RD32"
+        ],
+        "relatedPsCodes": [
+          "PS03"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 7,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果08",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2024",
+        "relatedIpCodes": [
+          "IP03",
+          "IP09",
+          "IP12"
+        ],
+        "relatedRdCodes": [
+          "RD16",
+          "RD28",
+          "RD41"
+        ],
+        "relatedPsCodes": [
+          "PS04"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 8,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果09",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2024",
+        "relatedIpCodes": [
+          "IP14",
+          "IP26",
+          "IP29"
+        ],
+        "relatedRdCodes": [
+          "RD33",
+          "RD34",
+          "RD35"
+        ],
+        "relatedPsCodes": [
+          "PS01"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 9,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果10",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2024",
+        "relatedIpCodes": [
+          "IP37"
+        ],
+        "relatedRdCodes": [
+          "RD47"
+        ],
+        "relatedPsCodes": [
+          "PS02"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 10,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果11",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2024",
+        "relatedIpCodes": [
+          "IP07",
+          "IP40",
+          "IP46"
+        ],
+        "relatedRdCodes": [
+          "RD44",
+          "RD50",
+          "RD51"
+        ],
+        "relatedPsCodes": [
+          "PS03"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 11,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果12",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2024",
+        "relatedIpCodes": [
+          "IP06",
+          "IP32",
+          "IP33"
+        ],
+        "relatedRdCodes": [
+          "RD37",
+          "RD38",
+          "RD40"
+        ],
+        "relatedPsCodes": [
+          "PS04"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 12,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果13",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2025",
+        "relatedIpCodes": [
+          "IP38"
+        ],
+        "relatedRdCodes": [
+          "RD36"
+        ],
+        "relatedPsCodes": [
+          "PS01"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 13,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果14",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2025",
+        "relatedIpCodes": [
+          "IP13",
+          "IP39"
+        ],
+        "relatedRdCodes": [
+          "RD43",
+          "RD52"
+        ],
+        "relatedPsCodes": [
+          "PS02"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 14,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果15",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2025",
+        "relatedIpCodes": [
+          "IP35",
+          "IP41",
+          "IP45"
+        ],
+        "relatedRdCodes": [
+          "RD42",
+          "RD54",
+          "RD59"
+        ],
+        "relatedPsCodes": [
+          "PS03"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 15,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果16",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2025",
+        "relatedIpCodes": [
+          "IP08",
+          "IP17",
+          "IP36"
+        ],
+        "relatedRdCodes": [
+          "RD18",
+          "RD48",
+          "RD49"
+        ],
+        "relatedPsCodes": [
+          "PS04"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 16,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果17",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2025",
+        "relatedIpCodes": [
+          "IP15",
+          "IP19",
+          "IP21",
+          "IP30"
+        ],
+        "relatedRdCodes": [
+          "RD27",
+          "RD30",
+          "RD55"
+        ],
+        "relatedPsCodes": [
+          "PS01"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 17,
+        "notes": "示例说明文本"
+      },
+      {
+        "name": "测试科技成果18",
+        "type": "专利",
+        "typeValue": "",
+        "source": "自主研发",
+        "sourceValue": "",
+        "result": "新产品",
+        "resultValue": "",
+        "year": "2025",
+        "relatedIpCodes": [
+          "IP16",
+          "IP34",
+          "IP42"
+        ],
+        "relatedRdCodes": [
+          "RD04",
+          "RD20",
+          "RD39"
+        ],
+        "relatedPsCodes": [
+          "PS02"
+        ],
+        "ways": [],
+        "wayValues": [],
+        "orderNo": 18,
+        "notes": "示例说明文本"
+      }
+    ],
+    "rdOrganizationManagement": "",
+    "managementAndTechStaff": ""
+  },
+  "standards": [],
+  "businessSummary": {
+    "netAssets": {
+      "2023": 0,
+      "2024": 0,
+      "2025": 0
+    },
+    "salesRevenue": {
+      "2023": 0,
+      "2024": 0,
+      "2025": 0
+    },
+    "profit": {
+      "2023": 0,
+      "2024": 0,
+      "2025": 0
+    },
+    "domesticRdExpense": {
+      "2023": 0,
+      "2024": 0,
+      "2025": 0
+    },
+    "totalRevenue": 0
+  }
+}

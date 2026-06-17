@@ -1,0 +1,26 @@
+{
+  "skill_name": "vision",
+  "evals": [
+    {
+      "id": 1,
+      "name": "clipboard-analysis",
+      "prompt": "帮我看看这张截图里有什么",
+      "expected_output": "正确描述阿里云百炼 API Key 管理页面的内容",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "file-analysis",
+      "prompt": "分析这个图片文件 D:/OneDrive/VC+/mcp-server-vision/clipboard_img.png，提取所有文字信息",
+      "expected_output": "提取页面中所有可见文字，包括表格数据",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "custom-prompt",
+      "prompt": "这张图里显示的是哪个云平台？列出了几个API Key？",
+      "expected_output": "正确回答阿里云百炼平台，1个API Key",
+      "files": []
+    }
+  ]
+}

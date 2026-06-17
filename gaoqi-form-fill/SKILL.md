@@ -111,12 +111,12 @@ Word 暂不做确定性自动解析，只作为 AI 阅读参考，用来补充�
 第一版已实现 Excel 入口：
 
 ```powershell
-python gaoqi-form-fill/scripts/excel-to-json.py `
-  gaoqi-form-fill/examples/test-data/gaoqi-sample-data.xlsx `
-  gaoqi-form-fill/examples/test-data/gaoqi-sample-data.json
+python scripts/excel-to-json.py `
+  examples/test-data/gaoqi-sample-data.xlsx `
+  examples/test-data/gaoqi-sample-data.json
 
-python gaoqi-form-fill/scripts/validate-json.py `
-  gaoqi-form-fill/examples/test-data/gaoqi-sample-data.json
+python scripts/validate-json.py `
+  examples/test-data/gaoqi-sample-data.json
 ```
 
 预检出现 `ERROR` 时，不应继续自动填表。预检只有 `WARN` 时，应先让用户确认。

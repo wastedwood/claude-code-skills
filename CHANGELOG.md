@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.5.2] - 2026-06-17
+
+### Fixed（修复）
+- 修正 gaoqi-form-fill SKILL.md 中 Excel 转 JSON 和预检脚本的命令行路径，去掉多余的 `gaoqi-form-fill/` 前缀
+
 ## [v0.5.1] - 2026-06-17
 
 ### Changed（变更）

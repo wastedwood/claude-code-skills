@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.5.1] - 2026-06-17
+
+### Changed（变更）
+- 调整 wrap-up 技能定位：`/wrap-up` 默认按正式收尾发布流程处理，不再让 agent 在 quick / push / release 之间切换。
+- 明确 wrap-up 的执行节奏：整理 change、检查敏感文件、同步必要文档和 CHANGELOG、推断版本号、生成 commit/tag/push 预览，用户确认后再执行。
+- 移除验证记录要求：验证是进入 wrap-up 前的前置动作，不属于 wrap-up 技能职责。
+
 ## [v0.5.0] - 2026-06-17
 
 ### Added（新增）

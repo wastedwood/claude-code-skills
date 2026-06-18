@@ -1,42 +1,25 @@
-# Claude Code Skills
+# Personal Agent Skills
 
-Claude Code 的自定义技能集。每个技能是一个独立的工作流，封装了特定场景下的提示词、约束条件和操作流程。
+个人使用的 AI 助手技能库，兼容 Codex、Claude Code 等支持 `SKILL.md` 的工具。每个技能是一个独立工作流，封装特定场景下的规则、约束和操作流程。
 
 ## 这是什么
 
-Claude Code 支持通过 `SKILL.md` 定义**自定义技能**——相当于给 AI 配一份岗位说明书。当你在对话中输入 `/<skill-name>` 时，Claude 会按照对应的技能定义来工作，而不是通用对话模式。
+`SKILL.md` 相当于给 AI 助手准备一份可复用的岗位说明书。支持技能机制的工具读取对应文件后，会按照其中定义的工作流程执行任务。
 
 这个仓库收集了我日常使用的各种技能，覆盖申报填表、文书写作、代码审查、研究分析等场景。
 
-## Skill 的两种运行模式
+## 版本管理原则
 
-### 1. 通过 SKILL.md 热加载（推荐）
+- GitHub 仓库 [`wastedwood/personal-agent-skills`](https://github.com/wastedwood/personal-agent-skills) 是唯一正式版本。
+- 技能修改先在本仓库完成并验证，再同步到 GitHub。
+- Codex、Claude Code 等工具中的技能目录仅作为安装副本，不直接在安装副本中维护。
+- 后续安装或更新技能时，以 GitHub 仓库中的版本为准。
 
-在项目根目录下放 `.claude/skills.json`，把技能路径注册进去：
+## 使用方式
 
-```json
-{
-  "skills": ["gaoqi-form-fill/SKILL.md"]
-}
-```
+将需要的技能目录安装到所用 AI 工具的个人技能目录。不同工具的安装位置和触发方式不同，具体规则见各工具文档以及 [`wrap-up/references/agent-paths.md`](wrap-up/references/agent-paths.md)。
 
-然后在对话中输入 `/gaoqi-form-fill` 即可触发。
-
-### 2. 直接引用
-
-不注册也可以，对话中告诉 Claude：
-> "读一下 gaoqi-form-fill/SKILL.md，然后按这个技能工作"
-
-Claude 会读取文件并按其中的指令执行。
-
-### 编写自己的 Skill
-
-参考 [Claude Code 官方文档](https://docs.anthropic.com/en/docs/claude-code/skills)，一个 `SKILL.md` 包含：
-
-- **Frontmatter**（YAML 头）：`name`、`description`（描述决定触发匹配）、`metadata.type`
-- **正文**：用 Markdown 写行为规则、约束条件、工作流程、输出格式
-
-> 先创建 `.claude/settings.json` 设置 permissions，再写 SKILL.md。详情见[官方文档](https://docs.anthropic.com/en/docs/claude-code/skills)。
+也可以让 AI 助手直接读取某个技能的 `SKILL.md`，例如：“读取 `gaoqi-form-fill/SKILL.md`，然后按这个技能工作。”
 
 ## 技能列表
 
@@ -57,7 +40,7 @@ Claude 会读取文件并按其中的指令执行。
 
 ## 使用前提
 
-- 已安装 [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview)
+- 已安装支持相应技能机制的 AI 助手，例如 Codex 或 Claude Code
 - 按各技能 `SKILL.md` 中的前置条件准备环境
 
 ## License

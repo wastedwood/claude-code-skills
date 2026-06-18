@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased]
+
+### Changed（变更）
+- 项目由 `claude-code-skills` 更名为 `personal-agent-skills`，定位调整为个人使用、兼容多种 AI 助手的技能库。
+- 明确 GitHub 仓库是技能的唯一正式版本，各 AI 工具中的技能目录仅作为安装副本。
+- 更新 README，移除仅适用于单一工具的安装说明，改为平台中立的使用说明。
+
 ## [v0.6.0] - 2026-06-18
 
 ### Added（新增）

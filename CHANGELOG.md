@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.6.0] - 2026-06-18
+
+### Added（新增）
+- 新增 `patent-pdf-batch-download` 技能：从 Excel/CSV 中读取中国专利申请号，优先通过 Google Patents 匹配公开号并下载 PDF 全文。
+- 新增申请号规范化规则，支持无 `CN`、无点号格式及末尾校验字符 `X`。
+- 新增 `download_and_validate.py`，按原专利号命名 PDF，并检查清单、公开号、文件头、文件名集合和页数。
+- 支持 Claude Code web access、浏览器控制、MCP 浏览器或普通 HTTP 等网页访问方式；国家知识产权局仅作为备用来源。
+
 ## [v0.5.2] - 2026-06-17
 
 ### Fixed（修复）

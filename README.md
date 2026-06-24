@@ -29,7 +29,7 @@
 | [enterprise-writing](enterprise-writing/SKILL.md) | 企业文书写作助手。覆盖 7 类企业政府文书：科技项目申报书、资质认定申请（小巨人/单项冠军）、工程研究中心/平台申请、人才申报书、绩效评价报告、典型案例、发言稿。内置各类文书知识库。 |
 | [vision](vision/SKILL.md) | 图片分析技能。使用阿里云百炼视觉模型（通义千问 VL）识别图片中的文字、物体、场景等，支持 OCR、截图分析、图片内容理解。 |
 | [wrap-up](wrap-up/SKILL.md) | 项目收尾工作流。自动同步文档与记忆，扫描 git 变更生成 changelog，用户确认后按 conventional commits 格式提交、打版、推送。 |
-| [patent-pdf-batch-download](patent-pdf-batch-download/SKILL.md) | 专利 PDF 批量下载技能。优先通过 Google Patents 将中国专利申请号匹配为公开号，批量下载全文，按原专利号命名，并校验文件数量、名称和 PDF 完整性。兼容 Claude Code web access 等网页访问方式。 |
+| [patent-pdf-batch-download](patent-pdf-batch-download/SKILL.md) | 专利 PDF 批量下载技能。优先通过 Google Patents 将中国专利申请号匹配为公开号，必要时用 CNIPA 公布公告系统补查公告号，批量下载全文，按原专利号命名，并校验文件数量、名称和 PDF 完整性。 |
 
 ## 开发计划（欢迎 PR）
 

@@ -6,6 +6,8 @@
 - 项目由 `claude-code-skills` 更名为 `personal-agent-skills`，定位调整为个人使用、兼容多种 AI 助手的技能库。
 - 明确 GitHub 仓库是技能的唯一正式版本，各 AI 工具中的技能目录仅作为安装副本。
 - 更新 README，移除仅适用于单一工具的安装说明，改为平台中立的使用说明。
+- 明确 `patent-pdf-batch-download` 在 Google Patents 无法验证时，可使用中国专利公布公告系统 `http://epub.cnipa.gov.cn/` 作为公告号/公开号备用查询来源。
+- 吸收专利批量下载实战规则：批量任务默认单 agent 顺序处理、CNIPA 查询使用纯申请号且需要浏览器、Google Patents 申请人检索不叠加 `language=CHINESE`。
 
 ## [v0.6.0] - 2026-06-18
 

@@ -9,6 +9,7 @@
 - 明确 `patent-pdf-batch-download` 在 Google Patents 无法验证时，可使用中国专利公布公告系统 `http://epub.cnipa.gov.cn/` 作为公告号/公开号备用查询来源。
 - 吸收专利批量下载实战规则：批量任务默认单 agent 顺序处理、CNIPA 查询使用纯申请号且需要浏览器、Google Patents 申请人检索不叠加 `language=CHINESE`。
 - README 增加 `handsomestWei/patent-disclosure-skill` 作为 CNIPA 公布公告站自动化思路的参考与借鉴说明。
+- 补充 CNIPA 查询页面锚点 `#searchStr`、`#indexForm`、页面稳定等待规则，并新增可选脚本 `scripts/cnipa_lookup_publication.py` 输出固定 JSON 候选结果。
 
 ## [v0.6.0] - 2026-06-18
 

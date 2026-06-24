@@ -80,6 +80,22 @@ Google Patents 对部分申请号的搜索索引不完整。显示 `No results f
 
 严禁只凭标题接受候选，因为标题可能重复，例如“一种变频一体机”。标题只是寻找候选的手段，申请号才是最终匹配依据。
 
+CNIPA 浏览器查询要点：
+
+- 使用首页检索框 `#searchStr` 输入规范化后的纯申请号，例如 `2021214578686`。
+- 通过表单 `#indexForm` 提交查询；不要直接拼接一个未验证的结果 URL。
+- 打开首页后先等待页面脚本和可能的 WAF 检查完成，再等待 `#searchStr` 可用。
+- 提交后等待页面导航或网络空闲，再额外短暂等待结果区域稳定，避免读取到半渲染页面。
+- 解析结果时保留原始候选文本；只有候选中的申请号规范化后与源表完全一致，才提取对应公告号/公开号。
+
+如果当前环境可以运行 Playwright，可使用可选脚本辅助查询：
+
+```text
+python "<本技能目录>/scripts/cnipa_lookup_publication.py" 2021214578686
+```
+
+脚本必须只作为候选发现工具。它的标准输出包含固定前缀 `CNIPA_LOOKUP_JSON:`，后接 UTF-8 JSON 对象；调用方应读取 JSON 中的 `verified`、`publication_no`、`application_no`、`title` 和 `candidates` 字段，再按本技能的交叉核验规则继续处理。
+
 CNIPA 只用于发现或核对公告号/公开号，不能代替最终下载入口。取得公开号后，仍应回到 Google Patents 公开号详情页获取 PDF 链接并完成 PDF 链接、公开号和标题的交叉核对。
 
 网页访问工具只能提供候选和页面事实，不能降低核验标准。无论使用 Codex Chrome、Claude Code web access、Playwright、MCP 浏览器或普通 HTTP，请始终完成申请号、公开号、标题和 PDF 链接的交叉核对。
@@ -159,6 +175,7 @@ python "<本技能目录>/scripts/download_and_validate.py" manifest.json "<outp
 
 ## 资源
 
+- `scripts/cnipa_lookup_publication.py`：可选 Playwright 辅助脚本，按纯申请号查询 CNIPA 公布公告系统并输出固定 JSON 候选结果。
 - `scripts/download_and_validate.py`：规范化申请号、校验清单、下载 PDF、按专利号命名并检查完整性。
 
 脚本只依赖 Python 标准库完成清单校验和下载。页数校验优先使用 `pypdf`，不存在时尝试系统 `pdfinfo`；两者都不可用时明确报错，不自动安装全局依赖。

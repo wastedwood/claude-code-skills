@@ -31,6 +31,10 @@
 | [wrap-up](wrap-up/SKILL.md) | 项目收尾工作流。自动同步文档与记忆，扫描 git 变更生成 changelog，用户确认后按 conventional commits 格式提交、打版、推送。 |
 | [patent-pdf-batch-download](patent-pdf-batch-download/SKILL.md) | 专利 PDF 批量下载技能。优先通过 Google Patents 将中国专利申请号匹配为公开号，必要时用 CNIPA 公布公告系统补查公告号，批量下载全文，按原专利号命名，并校验文件数量、名称和 PDF 完整性。 |
 
+## 参考与借鉴
+
+- `patent-pdf-batch-download` 的 CNIPA 公布公告系统补查思路，借鉴了 [`handsomestWei/patent-disclosure-skill`](https://github.com/handsomestWei/patent-disclosure-skill/tree/main/tools) 中对 `epub.cnipa.gov.cn` 的 Playwright 检索、页面等待和稳定 JSON 输出设计；本仓库仅吸收工作流经验，不直接复制其工具代码。
+
 ## 开发计划（欢迎 PR）
 
 - [x] 更多企业申报类技能（专精特新、小巨人等）

@@ -10,6 +10,8 @@
 - 吸收专利批量下载实战规则：批量任务默认单 agent 顺序处理、CNIPA 查询使用纯申请号且需要浏览器、Google Patents 申请人检索不叠加 `language=CHINESE`。
 - README 增加 `handsomestWei/patent-disclosure-skill` 作为 CNIPA 公布公告站自动化思路的参考与借鉴说明。
 - 补充 CNIPA 查询页面锚点 `#searchStr`、`#indexForm`、页面稳定等待规则，并新增可选脚本 `scripts/cnipa_lookup_publication.py` 输出固定 JSON 候选结果。
+- 专利查询脚本新增国家政务服务平台官方公布公告接口作为首选备用路径；旧版 CNIPA 页面仅在官方接口无唯一结果时启用。
+- 补充 Google Patents 限流处理：停止高频重试、允许可信只读页面转换服务转呈详情页、逐条保存 manifest、按返回时间退避，以及下载命令中断后的断点续跑规则。
 
 ## [v0.6.0] - 2026-06-18
 

@@ -70,8 +70,8 @@ Excel 常见格式为无前缀、无点号：`2019209220005`、`202021006427X`�
 
 Google Patents 对部分申请号的搜索索引不完整。显示 `No results found` 时：
 
-1. 优先使用中国专利公布公告系统 `http://epub.cnipa.gov.cn/`，用规范化后的纯申请号补查公告号/公开号。
-2. CNIPA 页面通常需要浏览器执行 JavaScript，不要假设普通 HTTP GET 可以直接抓取结果；一次只查一个申请号，不做批量粘贴。
+1. 优先运行 `scripts/cnipa_lookup_publication.py`。脚本先查询国家政务服务平台承载的国家知识产权局官方公布公告服务；该路径不依赖旧版网页渲染。
+2. 官方服务无唯一结果或暂不可用时，再使用 `http://epub.cnipa.gov.cn/` 浏览器页面；一次只查一个申请号，不做批量粘贴。
 3. 从 CNIPA 结果逐行读取公开号、申请号、申请日、标题和申请人，并用规范化申请号精确匹配。
 4. 如果 CNIPA 暂不可用或仍无法确认，再使用完整专利名称搜索 Google Patents。
 5. Google Patents 结果过多时，增加申请人或申请年份缩小范围；使用申请人检索时不要附加 `language=CHINESE`，该参数可能导致本应存在的申请人结果被过滤为空。
@@ -88,13 +88,13 @@ CNIPA 浏览器查询要点：
 - 提交后等待页面导航或网络空闲，再额外短暂等待结果区域稳定，避免读取到半渲染页面。
 - 解析结果时保留原始候选文本；只有候选中的申请号规范化后与源表完全一致，才提取对应公告号/公开号。
 
-如果当前环境可以运行 Playwright，可使用可选脚本辅助查询：
+使用可选脚本查询：
 
 ```text
 python "<本技能目录>/scripts/cnipa_lookup_publication.py" 2021214578686
 ```
 
-脚本必须只作为候选发现工具。它的标准输出包含固定前缀 `CNIPA_LOOKUP_JSON:`，后接 UTF-8 JSON 对象；调用方应读取 JSON 中的 `verified`、`publication_no`、`application_no`、`title` 和 `candidates` 字段，再按本技能的交叉核验规则继续处理。
+脚本不安装依赖。官方接口失败且需要退回旧版页面时，当前 Python 环境必须已有 Playwright。脚本只作为候选发现工具；其标准输出包含固定前缀 `CNIPA_LOOKUP_JSON:`，后接 UTF-8 JSON 对象。读取 `source`、`verified`、`publication_no`、`application_no`、`title` 和 `candidates` 字段，再按本技能的交叉核验规则继续处理。
 
 CNIPA 只用于发现或核对公告号/公开号，不能代替最终下载入口。取得公开号后，仍应回到 Google Patents 公开号详情页获取 PDF 链接并完成 PDF 链接、公开号和标题的交叉核对。
 
@@ -115,6 +115,13 @@ CNIPA 只用于发现或核对公告号/公开号，不能代替最终下载入�
 - 页面标题包含目标公开号。
 - 页面专利名称与源表一致或语义明确对应。
 - PDF 链接文件名包含同一公开号。
+
+Google Patents 返回 `429`、`503`、`Sorry` 或空白搜索壳时，停止高频重试：
+
+1. 已知公开号时只访问公开号详情页，不再重复执行申请号搜索。
+2. 当前环境如有可信的只读网页转换服务，可用它读取同一 Google Patents 详情页并提取 `Download PDF` 的 `patentimages.storage.googleapis.com` 地址；转换服务只负责转呈页面，不能替代申请号、公开号和标题核验。
+3. 每取得一条已核验记录就立即写入临时 manifest；再次运行时跳过已完成项。
+4. 遇到 `429` 时按服务返回的等待时间暂停，并把请求间隔提高到至少 2 秒。不得并发抓取详情页。
 
 ### 5. 下载和命名
 
@@ -171,11 +178,12 @@ python "<本技能目录>/scripts/download_and_validate.py" manifest.json "<outp
 - 公开号直达页无结果：重新核对公开号，不通过扩大关键词搜索来猜测。
 - PDF 链接与公开号不一致：停止该条下载并标记冲突。
 - 下载失败：保留已成功文件，重试失败项；不得用 HTML 错误页冒充 PDF。
+- 批量命令因运行时限中断：重新运行同一命令。下载脚本会校验并保留完整的已有 PDF，只补下载缺失项；最终报告出现前不得视为完成。
 - 同名文件已存在：先比较文件完整性，不静默覆盖用户已有文件。
 
 ## 资源
 
-- `scripts/cnipa_lookup_publication.py`：可选 Playwright 辅助脚本，按纯申请号查询 CNIPA 公布公告系统并输出固定 JSON 候选结果。
+- `scripts/cnipa_lookup_publication.py`：按纯申请号先查询官方政务服务接口，必要时退回 CNIPA 浏览器页面，并输出固定 JSON 候选结果。
 - `scripts/download_and_validate.py`：规范化申请号、校验清单、下载 PDF、按专利号命名并检查完整性。
 
 脚本只依赖 Python 标准库完成清单校验和下载。页数校验优先使用 `pypdf`，不存在时尝试系统 `pdfinfo`；两者都不可用时明确报错，不自动安装全局依赖。

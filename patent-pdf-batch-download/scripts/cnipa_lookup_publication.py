@@ -8,15 +8,20 @@ environment and never installs dependencies by itself.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import sys
+import time
+import urllib.parse
+import urllib.request
 from dataclasses import dataclass
 from typing import Any
 
 
 OUTPUT_PREFIX = "CNIPA_LOOKUP_JSON:"
 CNIPA_URL = "http://epub.cnipa.gov.cn/"
+GOV_SERVICE_URL = "https://app.gjzwfw.gov.cn/jimps/link.do"
 PUBLICATION_RE = re.compile(r"\bCN\d{8,13}[A-Z]\d?\b", re.IGNORECASE)
 
 
@@ -53,9 +58,10 @@ def make_report(
     title: str = "",
     candidates: list[Candidate] | None = None,
     error: str = "",
+    source: str = "cnipa_epub",
 ) -> dict[str, Any]:
     return {
-        "source": "cnipa_epub",
+        "source": source,
         "application_no": application_no,
         "publication_no": publication_no,
         "title": title,
@@ -136,6 +142,70 @@ def collect_candidates(page: Any, application_no: str) -> list[Candidate]:
     return list(unique.values())
 
 
+def lookup_official_api(application_no: str, timeout_seconds: int = 30) -> dict[str, Any]:
+    """Query the official State Council/CNIPA publication service."""
+    normalized = normalize_application_number(application_no)
+    request_time = int(time.time() * 1000)
+    condition = {
+        "from": "1",
+        "key": "6f0c5ce612ba4471acce875dd7e6f6a2",
+        "sign": hashlib.md5(
+            ("zscqgbgg" + str(request_time)).encode("utf-8")
+        ).hexdigest(),
+        "requestTime": request_time,
+        "raw": {
+            "searchStr": normalized,
+            "from": 0,
+            "size": 10,
+            "pubtypeList": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        },
+    }
+    payload = urllib.parse.urlencode(
+        {"param": json.dumps(condition, ensure_ascii=False, separators=(",", ":"))}
+    ).encode("utf-8")
+    request = urllib.request.Request(
+        GOV_SERVICE_URL,
+        data=payload,
+        headers={
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "Referer": (
+                "https://app.gjzwfw.gov.cn/jmopen/webapp/html5/"
+                "zlgbggcx/index.html"
+            ),
+            "User-Agent": "Mozilla/5.0 patent-pdf-batch-download",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
+        data = json.loads(response.read().decode("utf-8"))
+
+    candidates = []
+    for item in data.get("patentList", []):
+        if normalize_application_number(item.get("an", "")) != normalized:
+            continue
+        publication_no = str(item.get("pn", "")).upper()
+        if not PUBLICATION_RE.fullmatch(publication_no):
+            continue
+        candidates.append(
+            Candidate(
+                publication_no=publication_no,
+                title=str(item.get("ti", "")).strip(),
+                application_no=normalized,
+                raw_text=json.dumps(item, ensure_ascii=False, separators=(",", ":")),
+                detail_url=str(item.get("codeUrl", "")).strip(),
+            )
+        )
+
+    verified = len(candidates) == 1
+    return make_report(
+        normalized,
+        verified=verified,
+        publication_no=candidates[0].publication_no if verified else "",
+        title=candidates[0].title if verified else "",
+        candidates=candidates,
+        source="cnipa_gov_service",
+    )
+
+
 def lookup(application_no: str, *, headless: bool, timeout_ms: int) -> dict[str, Any]:
     normalized = normalize_application_number(application_no)
     if not re.fullmatch(r"\d{5,}[A-Z0-9]", normalized):
@@ -203,15 +273,29 @@ def main() -> int:
     parser.add_argument("application_no", help="CN application number, with or without CN/dot")
     parser.add_argument("--headed", action="store_true", help="Show the browser window")
     parser.add_argument("--timeout-ms", type=int, default=30000)
+    parser.add_argument(
+        "--browser-only",
+        action="store_true",
+        help="Skip the official API and use the legacy CNIPA browser page",
+    )
     args = parser.parse_args()
 
     normalized = normalize_application_number(args.application_no)
     try:
-        report = lookup(
-            normalized,
-            headless=not args.headed,
-            timeout_ms=args.timeout_ms,
-        )
+        report = None
+        if not args.browser_only:
+            try:
+                report = lookup_official_api(
+                    normalized, timeout_seconds=max(1, args.timeout_ms // 1000)
+                )
+            except Exception:
+                report = None
+        if report is None or not report["verified"]:
+            report = lookup(
+                normalized,
+                headless=not args.headed,
+                timeout_ms=args.timeout_ms,
+            )
     except Exception as exc:
         emit(make_report(normalized, verified=False, error=str(exc)))
         return 1
